@@ -1,0 +1,670 @@
+@import url("base.css");
+.guanggao{
+	width: 100%;
+	height: 40px;
+	background: #444;
+}
+.guanggao1{
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.guanggao1 .text{
+	color: #a8a8aa;
+    font-size: 12px;
+}
+.nav{
+	width: 100%;
+	height: 44px;
+	background: rgba(0,0,0,0.8);
+}
+.nav1{
+	margin: 0 auto;
+	display: flex;
+	width: 976px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	font-size: 17px;
+}
+.nav1 a{
+	position: relative;
+	color: #fff;
+	font-size: 14px;
+}
+.nav1 a:hover{
+	/*color: #111111;*/
+}
+.nav1 a:nth-child(2){
+	display: block;
+	width: 20px;
+	height: 100%;
+	background:url(../img/image_large.svg) no-repeat center center;
+}
+.nav1 a:first-child{
+	display: none;
+}
+.nav1 a:last-child{
+	display: block;
+	width: 20px;
+	height: 100%;
+	background:url(../img/image_large2.svg) no-repeat center center;
+}
+.nav1 a:nth-last-child(2){
+	display: block;
+	width: 20px;
+	height: 100%;
+	background:url(../img/image_large1.svg) no-repeat center center;
+}
+
+.nav1 a{
+	background: ;
+}
+.main{
+}
+.main li{
+	
+}
+.main li a{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 580px;
+	margin-bottom: 12px;
+	background: #fafafa;
+	
+}
+.main li:last-child a{
+	background: #f9f0eb;
+}
+.main h1{
+	margin-top: 88px;
+	font-size: 56px;
+	color: #111;
+	font-weight: 600;
+	text-align: center;
+}
+.main li:last-child h1{
+	margin-top: 37px;
+}
+.main p{
+	text-align: center;
+	font-size: 27px;
+	color: #111;
+	margin-top: 8px;
+	font-weight: 400px;
+}
+.main .img1{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 274px;
+	width: 909px;
+    height: 194px;
+    background-image: url(../img/iphone_x_large.jpg);
+    background-size: 909px 194px;
+}
+.main .img2{
+	position: absolute;
+	bottom: 0;
+	width: 516px;
+    height: 395px;
+    background-image: url(../img/iphone_8_large.jpg);
+    background-size: 516px 395px;
+}
+.qita{
+	overflow: hidden;
+}
+.qita li{
+	overflow: hidden;
+	float: left;
+	width: 50%;
+}
+.qita a{
+	float: left;
+	display: flex;
+	flex-direction: column;
+	background: #fafafa;
+	width: 100%;
+	box-sizing: border-box;
+	border:6px solid #fff;
+    height: 598px;
+}
+.qita li:first-child,.qita li:nth-child(2){
+	border-top-width: 12px;
+}
+.qita li:nth-child(n){
+	/*border-left: none;*/
+}
+.qita h1{
+	text-align: center;
+	color: #111;
+	font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    margin-top: 52px;
+
+}
+.qita p{
+	text-align: center;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 1.2318;
+	margin-top: 4px;
+	color: #333;
+}
+.qita .img{
+	position: relative;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.qita .img1{
+	position: absolute;
+}
+.qita li:first-child .img1{
+	width: 491px;
+    height: 344px;
+    background-size: 491px 344px;
+    background-repeat: no-repeat;
+    background-image:url(../img/holiday_large.png); 
+}
+.qita li:nth-child(2) .img1{
+	top: calc(50% - 360px);
+	/*left: calc(50% - 631px);*/
+	width: 1262px;
+    height: 580px;
+    background-size: 1262px 580px;
+    background-repeat: no-repeat;
+    background-image:url(../img/trade_up_large.jpg);
+}
+.qita li:nth-child(3) .img1{
+	width: 586px;
+    height: 274px;
+    background-size: 586px 274px;
+    background-repeat: no-repeat;
+    background-image: url(../img/watch_series_3_large.jpg);
+}
+.qita li:nth-child(4) .img1{
+	width: 510px;
+    height: 146px;
+    background-size: 510px 146px;
+    background-repeat: no-repeat;
+    background-image: url(../img/ipad_pro_large.jpg);
+}
+.qita li:nth-child(5) .img1{
+	width: 251px;
+    height: 420px;
+    background-size: 251px 420px;
+    background-repeat: no-repeat;
+    background-image: url(../img/macbook_large.jpg);
+}
+.qita li:nth-child(6) .img1{
+	width: 385px;
+    height: 304px;
+    background-size: 385px 304px;
+    background-repeat: no-repeat;
+    background-image: url(../img/airpods_large.jpg);
+}
+.qita li:nth-child(3) h1{
+	width: 142px;
+    height: 54px;
+    background-size: 142px 54px;
+    background-repeat: no-repeat;
+    background-image: url(../img/watch_series_3_promo_large.png);
+    margin: 0 auto;
+    margin-top: 56px;
+    margin-bottom: 3px;
+}
+.dibu{
+	background: #f2f2f2;
+	margin-top: 12px;
+}
+.shouhou{
+	width: 976px;
+	padding-top: 40px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-start;
+}
+.shouhou li{
+	flex: 1;
+}
+.shouhou li h5{
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 6px;
+	color: #333333;
+}
+.shouhou li a{
+	display: block;
+	font-size: 11px;
+	color: #555;
+	margin-bottom: 6px;
+	/*line-height: 11px;*/	
+}
+.shouhou .tebei{
+	margin-top: 24px;
+}
+.shouhou1{
+	display: none;
+	width: auto;
+	padding: 0 16px;
+}
+.shouhou1 a{
+	display: flex;
+	padding: 10px 0;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 12px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #d6d6d6;
+	overflow: hidden;
+}
+.shouhou1 a h5{
+	font-size: 12px;
+	color: #333;
+}
+.shouhou1 a i{
+	margin-right: 8px;
+}
+.shouhou2{
+	padding-top: 34px;
+	width: 976px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.shouhou2 .top{
+	padding-bottom: 7px;
+	border-bottom: 1px solid #d6d6d6;
+	margin-bottom: 7px;
+	color: #888;
+	font-size: 12px;
+}
+.shouhou2 .top a{
+	font-size: 12px;
+	color:#0070c9;
+}
+.shouhou2 .middle{
+	margin-top: -3px;
+	display: flex;
+	justify-content: space-between;
+}
+.shouhou2 .middle .left{
+	display: flex;
+	align-items: center;
+}
+.middle .left>span{
+	font-size: 12px;
+	color: #888;
+	margin-right: 30px;
+	display: block;
+    margin-top: 3px;
+}
+.middle .left>div{
+	display: flex;
+	align-items: center;
+}
+.middle .left>div a{
+	font-size: 12px;
+	color: #888;
+}
+.middle .left>div span{
+	font-size: 14px;
+	color: #999;
+	margin: 0 11px;
+}
+.middle .right{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.middle .right i{
+	display: block;
+	background-repeat: no-repeat;
+    background-size: 16px 16px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/16.png);
+}
+.middle .right em{
+	font-size: 12px;
+	color: #888;
+	margin-left: 5px;
+}
+.shouhou2 .bottom{
+	font-size: 12px;
+	color: #888;
+	margin-top: 6px;
+}
+.shouhou3{
+	display: none;
+	padding-top: 34px;
+	width: 976px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.shouhou3 .one{
+	margin-bottom: 14px;
+	color: #888;
+	font-size: 12px;
+}
+.shouhou3 .one a{
+	font-size: 12px;
+	color:#0070c9;
+}
+.shouhou3 .tow {
+	display: flex;
+	align-items: center;
+}
+.shouhou3 .tow i{
+	display: block;
+	background-repeat: no-repeat;
+    background-size: 16px 16px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/16.png);
+}
+.shouhou3 .tow em{
+	font-size: 12px;
+	color: #888;
+	margin-left: 5px;
+}
+.shouhou3>span{
+	font-size: 12px;
+	color: #888;
+	margin-right: 30px;
+	display: block;
+    margin-top: 11px;
+    display: block;
+}
+.shouhou3 .there{
+	margin-top: 3px;
+	font-size: 0;
+	display: flex;
+	align-items: center;
+}
+.shouhou3 .there a{
+	font-size: 12px;
+	color: #888;
+}
+.shouhou3 .there span{
+	font-size: 14px;
+	color: #999;
+	margin: 0 8px;
+	font-weight: 200px;
+}
+.shouhou3 .four{
+	font-size: 12px;
+	color: #888;
+	margin-top: 3px;
+}
+.shouhou li a:hover,.shouhou2 .middle .left a:hover,.shouhou3 .there a:hover,.shouhou3 .tow a:hover em{
+	text-decoration: underline;
+	color: #000;
+}
+.shouhou2 a:hover,.shouhou3 a:hover{
+	text-decoration: underline;
+}
+@media screen and (min-width:1024px ) {
+	.guanggao1{
+		width: 976px;
+	}
+}
+@media screen and (max-width:1024px ) {
+	.qita li:nth-child(3) h1{
+		width: 117px;
+	    height: 44px;
+	    background-size: 117px 44px;
+	    background-repeat: no-repeat;
+	    background-image: url(../img/watch_series_3_promo_medium.png);
+	    margin: 0 auto;
+	    margin-top: 45px;
+	    margin-bottom: 3px;
+	}
+	.shouhou2{
+		width: auto;
+		padding: 34px 16px 20px;
+	}
+	.shouhou{
+		width: auto;
+		padding: 21px 16px 0;
+	}
+	.guanggao1{
+		padding:0 16px;
+	}
+	.nav1{
+		width: auto;
+		padding: 0 16px;
+	}
+	.main h1{
+		font-size: 44px;
+	}
+	.main p{
+		font-size: 24px;
+		margin-top: 6px;
+	}
+	.main .img1{
+		width: 704px;
+	    height: 148px;
+	    top: 278px;
+	    background-size: 704px 148px;
+	    background-repeat: no-repeat;
+	    background-image: url(../img/iphone_x_medium.jpg);
+	}
+	.main .img2{
+		width: 549px;
+	    height: 388px;
+	    background-size: 549px 388px;
+	    background-repeat: no-repeat;
+	    background-image:url(../img/iphone_8_medium.jpg);
+	}
+	.main li{
+		height: 569px;
+	}
+	.qita a{
+		height: 508px;
+	}
+	.qita h1{
+		font-size: 32px;
+		line-height: 1.125;
+		margin-top: 42px;
+	}
+	.qita p{
+		font-size: 19px;
+    	line-height: 1.21053;
+    	margin-top: 3px;
+	}
+	.qita li:first-child .img1{
+		width: 336px;
+	    height: 236px;
+	    background-size: 336px 236px;
+	    background-repeat: no-repeat;
+	    background-image: url(../img/holiday_medium.png);
+	}
+	.qita li:nth-child(2) .img1{
+		top: calc(50% - 285px);
+		width: 516px;
+	    height: 490px;
+	    background-size: 516px 490px;
+	    background-repeat: no-repeat;
+	    background-image:url(../img/trade_up_medium.jpg);
+	}
+	.qita li:nth-child(3) .img1{
+		width: 288px;
+		height: 322px;
+		background-size: 288px 322px;
+		background-image: url(../img/watch_series_3_medium.jpg);
+	}
+	.qita li:nth-child(4) .img1{
+		width: 318px;
+		height: 91px;
+		background-size: 318px 91px;
+		background-image: url(../img/ipad_pro_medium.jpg);
+	}
+	.qita li:nth-child(5) .img1{
+		width: 199px;
+		height: 348px;
+		background-size: 199px 348px;
+		background-image: url(../img/macbook_medium.jpg);
+	}
+	.qita li:nth-child(6) .img1{
+		width: 269px;
+		height: 212px;
+		background-size: 269px 212px;
+		background-image: url(../img/airpods_medium.jpg);
+	}
+	
+}
+@media screen and (max-width:768px){
+	.qita li:nth-child(3) h1{
+		width: 117px;
+	    height: 42px;
+	    background-size: 117px 42px;
+	    background-image: url(../img/watch_series_3_promo_small.png);
+	    margin-top: 43px;
+	}
+	.guanggao{
+		height: 44px;
+	}
+	.nav1{
+		width: auto;
+		padding: 0 16px;
+	}
+	.nav{
+		height: 48px;		
+	}
+	.nav1 a{
+		display: none;
+	}
+	.nav1 a:nth-last-child(2){
+		display: none;
+	}
+	.nav1 a:first-child{
+		font-size: 30px;
+		display: block;
+	}
+	.nav1 a:last-child{
+		display: block;
+	}
+	.nav1 a:nth-child(2){
+		display: block;
+	}
+	.main h1{
+		margin-top: 40px;
+		font-size: 32px;
+	}
+	.main p{
+		font-size: 19px;
+		margin-top: 4px;
+	}
+	.main .img1{
+		top:130px;;
+		width: 167px;
+	    height: 333px;
+	    background-size: 167px 333px;
+	    background-repeat: no-repeat;
+	    background-image: url(../img/iphone_x_small.jpg)
+	}
+	.main .img2{
+		width: 267px;
+	    height: 357px;
+	    background-size: 267px 357px;
+	    background-repeat: no-repeat;
+	    background-image: url(../img/iphone_8_small.jpg);
+	}
+	.main a{
+		height: 500px;
+	}
+	.qita li{
+		width: 100%;
+	}
+	.qita a{
+		height: 512px;
+		width: 100%;
+		border-left: none;
+	    border-right: none;
+	    border-top: none;
+	}
+	.qita a:first-child{
+		margin-top: 12px;
+	}
+	.qita h1{
+		font-size: 32px;
+		line-height: 1.125;
+		margin-top: 37px;
+	}
+	.qita p{
+		font-size: 19px;
+    	line-height: 1.21053;
+    	margin-top: 3px;
+	}
+	.qita li:first-child .img1{
+		width: 314px;
+	    height: 219px;
+	    background-size: 314px 219px;
+	    background-repeat: no-repeat;
+	    background-image: url(../img/holiday_small.png);
+	}
+	.qita li:nth-child(2) .img1{
+		top: calc(50% - 310px);
+		width: 736px;
+	    height: 500px;
+	    background-size: 736px 500px;
+	    background-repeat: no-repeat;
+	    background-image: url(../img/trade_up_small.jpg);
+	}
+	.qita li:nth-child(3) .img1{
+		width: 291px;
+	    height: 326px;
+	    background-size: 291px 326px;
+	    background-repeat: no-repeat;
+	    background-image: url(../img/watch_series_3_small.jpg);
+	}
+	.qita li:nth-child(4) .img1{
+		width: 299px;
+	    height: 86px;
+	    background-size: 299px 86px;
+	    background-repeat: no-repeat;
+	    background-image:url(../img/ipad_pro_small.jpg); 
+	}
+	.qita li:nth-child(5) .img1{
+		width: 206px;
+	    height: 364px;
+	    background-size: 206px 364px;
+	    background-repeat: no-repeat;
+	    background-image: url(../img/macbook_small.jpg);
+	}
+	.qita li:nth-child(6) .img1{
+		width: 244px;
+	    height: 193px;
+	    background-size: 244px 193px;
+	    background-repeat: no-repeat;
+	    background-image: url(../img/airpods_small.jpg);
+	}
+	.shouhou{
+		display: none;
+	}
+	.shouhou1{
+		display: block;
+	}
+	.shouhou2{
+		display: none;
+	}
+	.shouhou3{
+		display: block;
+		width: auto;
+		padding: 17px 16px 20px;
+	}
+}
